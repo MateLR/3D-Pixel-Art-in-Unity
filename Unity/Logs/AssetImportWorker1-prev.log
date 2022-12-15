@@ -1,0 +1,268 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16313 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Virtual\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Visual/Project/Project
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57243
+Successfully changed project path to: D:/Visual/Project/Project
+D:/Visual/Project/Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 129.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path D:/Virtual/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Visual/Project/Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5968 MB
+    Driver:   31.0.15.2698
+Initialize mono
+Mono path[0] = 'D:/Virtual/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Virtual/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Virtual/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Virtual/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Virtual/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005020 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 119.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.806 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (119ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009884 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Visual\Project\Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Visual\Project\Project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 131.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1489ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1198ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (361ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (132ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4115 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (22.7 MB). Loaded Objects now: 4533.
+Memory consumption went from 197.9 MB to 175.1 MB.
+Total: 13.811500 ms (FindLiveObjects: 0.389000 ms CreateObjectMapping: 0.112700 ms MarkObjects: 8.870100 ms  DeleteObjects: 4.437800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14071.662862 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.247312 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/ActivationA.compute
+  artifactKey: Guid(517d235ce3daa4bcd88fd5494d4b99ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/ActivationA.compute using Guid(517d235ce3daa4bcd88fd5494d4b99ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae559b3f6fa19be80a70ae6482383cb1') in 0.055508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Conv3d.compute
+  artifactKey: Guid(5da0dcf3215520c41bdb8342e88aa56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Conv3d.compute using Guid(5da0dcf3215520c41bdb8342e88aa56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add6a923854416ed6ee5f14653d68167') in 0.007112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute
+  artifactKey: Guid(b4b1b304aae6c404cb0cdab46b8fa084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute using Guid(b4b1b304aae6c404cb0cdab46b8fa084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9e7a42294c4a5f9492aa6dbf575804') in 0.010587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/ReduceSlow.compute
+  artifactKey: Guid(114b7898ee808d04a90194a4cabce1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/ReduceSlow.compute using Guid(114b7898ee808d04a90194a4cabce1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91da3eff4d607a76df9c8346cce8d5b8') in 0.009191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/KernelDebug.cginc
+  artifactKey: Guid(658d58a262863454e8daacc86138ba3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/KernelDebug.cginc using Guid(658d58a262863454e8daacc86138ba3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86ba9bac2b431474ab9353e8001b824') in 0.014150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/DebugUtils.cginc
+  artifactKey: Guid(a236e93868e2f6349b7a40e7552915fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/DebugUtils.cginc using Guid(a236e93868e2f6349b7a40e7552915fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf0fb70aa699f18c2ea4241961089fa') in 0.007392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Pool_NCHW.compute
+  artifactKey: Guid(ecffd49f953b24e70a82b21054705d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Pool_NCHW.compute using Guid(ecffd49f953b24e70a82b21054705d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4dd5dc45f6615c677bfc71099aa76a') in 0.006704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/TextureUtils.compute
+  artifactKey: Guid(c79221c743684e04962aa31deb5e14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/TextureUtils.compute using Guid(c79221c743684e04962aa31deb5e14b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc40cbf7140a93fe251f68d9082a844') in 0.006757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/KernelDebugEnabled.cginc
+  artifactKey: Guid(801f6bbcb80e44fab8b21ca2a87367a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/KernelDebugEnabled.cginc using Guid(801f6bbcb80e44fab8b21ca2a87367a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c760530e6a5969369b4f1bd159c28c9b') in 0.007783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Transpose.compute
+  artifactKey: Guid(6d7c2d1819c6e4522ae6a9021481e846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Transpose.compute using Guid(6d7c2d1819c6e4522ae6a9021481e846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635ec3a8078eeb85f609cd6776c469a6') in 0.007231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dA_NCHW.compute
+  artifactKey: Guid(9d6406345bbd8482bab46e622092abcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dA_NCHW.compute using Guid(9d6406345bbd8482bab46e622092abcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3787f2d1d844a3d2b589373bbf9a8d76') in 0.006642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Broadcast_NHWC.compute
+  artifactKey: Guid(e08c989f90a0240cdac731efb621231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Broadcast_NHWC.compute using Guid(e08c989f90a0240cdac731efb621231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f791e3e72e2d7b1c58c4c01cff305b0e') in 0.007326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute
+  artifactKey: Guid(fdc94044b2f234c0fa80ada3771a2ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute using Guid(fdc94044b2f234c0fa80ada3771a2ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f418542e6d0f5ba8caa81e8932bc8ca8') in 0.011039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Dense3.compute
+  artifactKey: Guid(b2365b5a091a4ed4aa09dd10bd46f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Dense3.compute using Guid(b2365b5a091a4ed4aa09dd10bd46f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90fa44c355cee7442771628befdfa140') in 0.006294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/KernelDebugDisabled.cginc
+  artifactKey: Guid(ae661a10fea2b40fcbe9ef81c40653cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/KernelDebugDisabled.cginc using Guid(ae661a10fea2b40fcbe9ef81c40653cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81fd3ee82199c341d06c6c4f44be860') in 0.006081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Broadcast.cginc
+  artifactKey: Guid(fc624dd44959d4dfcad99aed0abc2a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/Broadcast.cginc using Guid(fc624dd44959d4dfcad99aed0abc2a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9b7c5b9709a24a56c7d825b531855e') in 0.007041 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
