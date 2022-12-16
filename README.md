@@ -9,18 +9,19 @@ Project by: Гусамов Артур (РИ-210950), Утенков Руслан
 и в итоговой версии проекта картинка рисуется при помощи специально скрипта
 
 ## Python
+- Для получения цвета и координат используется следующий код:
 ```py
 from PIL import Image
 import gspread
 
 
-gc = gspread.service_account(filename='daprojectgu-571cc82a3900.json')
+gc = gspread.service_account(filename='daprojectgu-571cc82a3900.json') #Для корректной работы с Excel была настроена связь через cloud.Google
 sh = gc.open('DAprojectGU')
 sh.sheet1.clear()
 
 
 def generate_coord_and_rgb():
-    img = Image.open('heart.png')
+    img = Image.open('heart.png') #Тут можно вставить свой пиксель арт(для корректного отображения стоит использовать арты не более 16x16 пикселей)
     size = w, h = img.size
     data = img.load()
     pieces = []
