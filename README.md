@@ -9,7 +9,34 @@ Project by: Гусамов Артур (РИ-210950), Утенков Руслан
 и в итоговой версии проекта картинка рисуется при помощи специально скрипта
 
 ## Python
+```py
+from PIL import Image
+import gspread
 
+
+gc = gspread.service_account(filename='daprojectgu-571cc82a3900.json')
+sh = gc.open('DAprojectGU')
+sh.sheet1.clear()
+
+
+def generate_coord_and_rgb():
+    img = Image.open('heart.png')
+    size = w, h = img.size
+    data = img.load()
+    pieces = []
+    for x in range(w):
+        for z in range(h):
+            r, g, b, a = data[x, z]
+            if a == 0:
+                continue
+            pieces.append([x - 4.5, z - 4.5, r, g, b])
+    pieces.sort(key=lambda arr: abs(arr[0]) + abs(arr[1]), reverse=True)
+    end = f'E{len(pieces) + 1}'
+    sh.sheet1.update(f'A1:{end}', pieces)
+
+
+generate_coord_and_rgb()
+```
 ## Unity
 - Для того, чтобы всё работало, нужно просто выбрать цель из которой будет рисоваться картинка и запустить сцену
 
